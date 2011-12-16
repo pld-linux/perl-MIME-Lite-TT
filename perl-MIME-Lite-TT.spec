@@ -9,7 +9,7 @@ Summary:	MIME::Lite::TT - TT enabled MIME::Lite wrapper
 #Summary(pl.UTF-8):	
 Name:		perl-MIME-Lite-TT
 Version:	0.02
-Release:	1
+Release:	2
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/MIME/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -53,5 +53,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes
+%dir %{perl_vendorlib}/MIME/Lite
 %{perl_vendorlib}/MIME/Lite/*.pm
 %{_mandir}/man3/*
