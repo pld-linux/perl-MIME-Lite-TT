@@ -4,7 +4,6 @@
 #
 %define		pdir	MIME
 %define		pnam	Lite-TT
-%include	/usr/lib/rpm/macros.perl
 Summary:	MIME::Lite::TT - TT enabled MIME::Lite wrapper
 #Summary(pl.UTF-8):	
 Name:		perl-MIME-Lite-TT
